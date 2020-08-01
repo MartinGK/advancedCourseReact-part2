@@ -3,11 +3,11 @@ let initialState = {
     errorMessage: ''
 };
 
-export default function (state = initialState, action) {
+export default (state = initialState, action) => {
     switch (action.type) {
         case 'UPDATEW':
             return state;
         default:
-            break;
+            return state;
     }
 }
