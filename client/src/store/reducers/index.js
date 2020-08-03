@@ -3,6 +3,6 @@ import { reducer as formReducer } from 'redux-form';
 import auth from 'store/reducers/auth';
 
 export default combineReducers({
-    auth:auth,
+    auth,
     form: formReducer
 })
